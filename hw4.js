@@ -71,7 +71,7 @@ AttachedPost5.prototype = Object.create(Post5.prototype);
 AttachedPost5.prototype.constructor = AttachedPost5;
 
 AttachedPost5.prototype.makeTextHighlighted = function() {
-    this.hightlighted = true;
+    this.highlighted = true;
 }
 
 let post5 = new Post5("автор", "lorem1", new Date());
